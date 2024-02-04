@@ -5,7 +5,7 @@ import cv2
 from safetensors import safe_open
 print(cv2.__version__)
 
-capture = cv2.VideoCapture(0)
+# capture = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
