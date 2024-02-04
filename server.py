@@ -25,7 +25,7 @@ host_name = socket.gethostname()
 host_ip = socket.gethostbyname(host_name)
 print('HOST IP:', host_ip)
 port = 9999
-socket_address = (host_ip, port)
+socket_address = ("192.168.1.35", port)
 
 # Socket Bind
 server_socket.bind(socket_address)
